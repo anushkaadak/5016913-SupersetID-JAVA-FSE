@@ -1,0 +1,13 @@
+Big O Notation
+-----------------
+
+Big O notation is a mathematical notation used to describe the upper bound of an algorithm's runtime in terms of the size of the input. It provides a high-level understanding of the algorithm's efficiency and performance as the input size grows.
+
+O(1): Constant time - The algorithm takes the same amount of time regardless of the input size.
+O(n): Linear time - The algorithm's runtime grows linearly with the input size.
+O(log n): Logarithmic time - The algorithm's runtime grows logarithmically with the input size.
+O(n^2): Quadratic time - The algorithm's runtime grows quadratically with the input size.
+Best, Average, and Worst-Case Scenarios
+Best-case scenario: The situation where the algorithm performs the minimum number of steps.
+Average-case scenario: The expected scenario, considering all possible inputs.
+Worst-case scenario: The situation where the algorithm performs the maximum number of steps.

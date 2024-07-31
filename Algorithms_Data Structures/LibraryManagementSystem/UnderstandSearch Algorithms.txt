@@ -1,0 +1,16 @@
+Linear Search
+--------------------
+Definition: Linear search is a straightforward method of finding a target value within a list. It sequentially checks each element of the list until the target value is found or the list ends.
+Time Complexity:
+Best-case: O(1) (if the target is the first element)
+Average-case: O(n)
+Worst-case: O(n) (if the target is the last element or not present)
+
+
+Binary Search
+--------------------------
+Definition: Binary search is a more efficient algorithm for finding a target value within a sorted list. It repeatedly divides the search interval in half, comparing the target value to the middle element of the list.
+Time Complexity:
+Best-case: O(1) (if the target is the middle element)
+Average-case: O(log n)
+Worst-case: O(log n) (if the target is not present)

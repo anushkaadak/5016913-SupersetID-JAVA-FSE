@@ -1,0 +1,14 @@
+Analysis of Search Algorithms for E-commerce Platform
+
+Linear Search
+- Best-case time complexity**: O(1)
+- Average-case time complexity**: O(n)
+- Worst-case time complexity**: O(n)
+
+Binary Search
+- Best-case time complexity**: O(1)
+- Average-case time complexity**: O(log n)
+- Worst-case time complexity**: O(log n)
+
+Conclusion
+Binary search is more suitable for the e-commerce platform due to its superior performance in terms of time complexity, especially with large datasets. It requires the data to be sorted, which adds some overhead when modifying the dataset. However, the performance benefits during search operations typically justify this overhead.

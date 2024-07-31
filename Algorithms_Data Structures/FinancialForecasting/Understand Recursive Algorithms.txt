@@ -1,0 +1,11 @@
+Concept of Recursion
+------------------------------
+Definition: Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem.
+Structure: A recursive function calls itself with modified parameters.
+Base Case and Recursive Case: The base case stops the recursion, and the recursive case continues the recursion.
+
+  
+Benefits of Recursion
+---------------------------
+Simplifies Complex Problems: Recursion can simplify the code for problems that can be divided into similar sub-problems.
+Readability: Recursive solutions are often more readable and concise compared to iterative solutions.

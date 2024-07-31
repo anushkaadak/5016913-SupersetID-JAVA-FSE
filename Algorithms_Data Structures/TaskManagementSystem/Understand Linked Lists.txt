@@ -1,0 +1,16 @@
+Singly Linked List
+-----------------------
+Definition: A singly linked list is a collection of nodes where each node contains a data part and a reference (or link) to the next node in the sequence.
+Structure: Each node has two components: the data and the link to the next node.
+Advantages:
+Dynamic Size: The size of a linked list can grow and shrink dynamically.
+Ease of Insertion/Deletion: Adding or removing elements is easier compared to arrays as it only involves changing the links.
+
+
+Doubly Linked List
+------------------------
+Definition: A doubly linked list is similar to a singly linked list but each node contains an additional link to the previous node.
+Structure: Each node has three components: the data, a link to the next node, and a link to the previous node.
+Advantages:
+Bidirectional Traversal: Allows traversal in both forward and backward directions.
+Ease of Deletion: Deleting a node is easier as you have direct access to both the previous and next nodes.

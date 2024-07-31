@@ -1,0 +1,25 @@
+Time Complexity
+--------------------
+Add Operation: O(1)
+Adding an employee to the end of the array (if there's space) is a constant-time operation.
+
+Search Operation: O(n)
+In the worst case, you might have to search through all employees, making it linear time.
+
+Traverse Operation: O(n)
+Traversing all employees involves visiting each element once.
+
+Delete Operation: O(n)
+Finding the employee to delete takes O(n) time, and shifting elements to fill the gap also takes O(n) time.
+
+
+Limitations of using Arrays
+-------------------------------
+Fixed Size: Arrays have a fixed size, which limits the number of employees that can be stored.
+Inefficient Deletions and Insertions: Deleting or inserting an element in the middle requires shifting elements, which can be inefficient for large arrays.
+Memory Usage: If the array is not fully utilized, there can be a significant waste of memory.
+
+Using Arrays
+----------------
+Arrays are suitable when the number of elements is known in advance and does not change frequently.
+They are also useful when constant-time access to elements is required.

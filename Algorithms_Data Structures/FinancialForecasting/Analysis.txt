@@ -1,0 +1,9 @@
+Time Complexity
+--------------------------------
+Time Complexity: O(n)
+The algorithm makes a recursive call for each year, resulting in linear time complexity.
+Space Complexity: O(n)
+Due to the recursion stack, the space complexity is also linear.
+Optimization
+Memoization: To avoid excessive computation, we can store previously calculated values in a memoization array.
+Iterative Approach: Alternatively, we can use an iterative approach to reduce the space complexity to O(1).

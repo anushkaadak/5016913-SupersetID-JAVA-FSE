@@ -1,0 +1,6 @@
+Array Representation in Memory:
+Contiguous Memory Allocation: Arrays are stored in contiguous memory locations, meaning all elements of the array are placed next to each other in memory.
+Indexing: Each element in the array can be accessed directly using its index. This allows for O(1) time complexity for accessing elements.
+Advantages:
+Fast Access: Direct indexing provides constant-time access to any element.
+Cache Friendliness: Contiguous memory allocation improves cache performance.

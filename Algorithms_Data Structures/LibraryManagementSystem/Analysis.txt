@@ -1,0 +1,23 @@
+Time Complexity
+-----------------------
+Linear Search:
+Best-case: O(1) (if the target is the first element)
+Average-case: O(n)
+Worst-case: O(n) (if the target is the last element or not present)
+
+Binary Search:
+Best-case: O(1) (if the target is the middle element)
+Average-case: O(log n)
+Worst-case: O(log n) (if the target is not present)
+
+
+When to Use Each Algorithm
+------------------------------------------
+Linear Search:
+Use when the list is unsorted or small in size.
+Simple to implement and does not require preprocessing (sorting).
+
+
+Binary Search:
+Use when the list is sorted and large in size.
+More efficient than linear search for large datasets due to its logarithmic time complexity.

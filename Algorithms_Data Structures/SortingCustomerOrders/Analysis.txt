@@ -1,0 +1,15 @@
+Time Complexity
+Bubble Sort:
+
+Best-case: O(n)
+Average-case: O(n^2)
+Worst-case: O(n^2)
+
+
+
+
+Quick Sort:
+
+Best-case: O(n log n)
+Average-case: O(n log n)
+Worst-case: O(n^2)

@@ -1,0 +1,31 @@
+Bubble Sort:
+Bubble Sort is a simple comparison-based algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+
+Time Complexity:
+Best-case: O(n)
+Average-case: O(n^2)
+Worst-case: O(n^2)
+
+Insertion Sort:
+Insertion Sort builds the sorted list one item at a time, taking each new item and placing it in its correct position relative to the already sorted items.
+
+Time Complexity:
+Best-case: O(n)
+Average-case: O(n^2)
+Worst-case: O(n^2)
+
+Quick Sort:
+Quick Sort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
+
+Time Complexity:
+Best-case: O(n log n)
+Average-case: O(n log n)
+Worst-case: O(n^2)
+
+Merge Sort:
+Merge Sort is another divide-and-conquer algorithm that divides the array into halves, sorts each half, and then merges the sorted halves back together.
+
+Time Complexity:
+Best-case: O(n log n)
+Average-case: O(n log n)
+Worst-case: O(n log n)

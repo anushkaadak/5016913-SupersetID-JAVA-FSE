@@ -1,0 +1,7 @@
+sed -i 's/\r//' WEEK-3/Exercise-1/managementsystem/.gitignore
+sed -i 's/\r//' WEEK-3/Exercise-2/managementsystem/.gitignore
+sed -i 's/\r//' WEEK-3/Exercise-3/managementsystem/.gitignore
+sed -i 's/\r//' WEEK-3/Exercise-4/managementsystem/.gitignore
+sed -i 's/\r//' WEEK-3/Exercise-5/managementsystem/.gitignore
+
+git config --global core.autocrlf true

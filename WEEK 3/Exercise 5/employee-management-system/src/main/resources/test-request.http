@@ -1,0 +1,98 @@
+### 1. Create Department 1
+POST http://localhost:8080/api/departments
+Content-Type: application/json
+
+{
+  "name": "HR"
+}
+
+### 2. Create Department 2
+POST http://localhost:8080/api/departments
+Content-Type: application/json
+
+{
+  "name": "IT"
+}
+
+### 3. Create Employee 1 in HR (Same first name as Employee 2)
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@hr.com",
+  "department": {
+    "id": 1
+  }
+}
+
+### 4. Create Employee 2 in HR (Same first name as Employee 1)
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@hr.com",
+  "department": {
+    "id": 1
+  }
+}
+
+### 5. Create Employee 3 in HR (Same last name as Employee 5)
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Brown",
+  "email": "alice.brown@hr.com",
+  "department": {
+    "id": 1
+  }
+}
+
+### 6. Create Employee 4 in IT (Same last name as Employee 3)
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "Bob",
+  "lastName": "Brown",
+  "email": "bob.brown@it.com",
+  "department": {
+    "id": 2
+  }
+}
+
+### 7. Create Employee 5 in IT
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "Emily",
+  "lastName": "Johnson",
+  "email": "emily.johnson@it.com",
+  "department": {
+    "id": 2
+  }
+}
+
+### 8. Get All Employees
+GET http://localhost:8080/api/employees
+
+### 9. Get Employee by Email (John Doe)
+GET http://localhost:8080/api/employees/email/john.doe@hr.com
+
+### 10. Get Employees by Last Name "Brown"
+GET http://localhost:8080/api/employees/lastname/Brown
+
+### 11. Get Employees by Department HR (ID = 1)
+GET http://localhost:8080/api/employees/department/1
+
+### 12. Get Employees by Department IT (ID = 2)
+GET http://localhost:8080/api/employees/department/2
+
+### 13. Get Number of Employees by Department
+GET http://localhost:8080/api/employees/count-by-department
